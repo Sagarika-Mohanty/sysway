@@ -1,0 +1,40 @@
+body
+{
+	background-color: #2CAAC8 ;
+	
+}
+.a{
+	background: #347888;
+	border: 2px solid black;
+	width: 700px;
+	height: 280px;
+	margin-left: 400px;
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	padding-right: 10px
+	
+	
+}
+.b{
+	background :#347888;
+	border: 2px solid black;
+	width: 700px;
+	height: 280px;
+	margin-left: 400px;
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	padding-right: 10px
+	
+}
+.bb{
+	width: 200px;
+	height: 200px;
+
+}
+.aa{
+	float: right;
+}

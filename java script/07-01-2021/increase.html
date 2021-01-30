@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="increase.css">
+</head>
+<body>
+    <button class="A" onclick="a()">+</button>
+    <p id="b" ></p>
+    <button class="B"  onclick="d()">-</button>
+    
+    <script type="text/javascript">
+    	var C=0;
+    	 function a(){
+    	 	document.getElementById("b").innerHTML = C;
+    	 	C++;
+            
+    	 }
+    	
+        function d(){
+           
+            C--;
+            document.getElementById("b").innerHTML = C;
+         }
+    	
+
+    </script>
+	
+
+</body>
+</html>

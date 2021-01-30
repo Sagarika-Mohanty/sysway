@@ -1,0 +1,109 @@
+.a{
+	border-top: 3px solid black;
+
+}
+
+.a img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 40px;
+}
+hr{
+	
+	background: black;
+}
+.p{
+	position: absolute;
+	left: 100px;
+	top: 2px;
+}
+.b{
+	position: absolute;
+	left: 600px;
+	font-family: bold;
+
+
+}
+select{
+	border-style: none;
+
+}
+.c{
+	height: 110px;
+	width: 1520px;
+	background: #CA1111;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	color: white;
+}
+
+.d{		
+	    
+		position: absolute;
+		left: 350px;
+		top: 250px;
+	}
+.e{
+	
+	width: 550px;
+	height: 410px;
+	position: absolute;
+	top: 250px;
+	left: 750px;
+
+}
+button{
+	width: 150px;
+	height: 40px;
+	background:#CA1111;
+	color: white; 
+}
+.f{
+	border-right:  3px solid #CA1111;
+	width: 160px;
+	height: 120px;
+	position: absolute;
+	left: 350px;
+	top: 700px;
+}
+.g{
+	
+	width: 780px;
+	height: 120px;
+	position: absolute;
+	left: 520px;
+	top: 700px;
+
+}
+.h{
+	border: 1px solid black;
+	position: absolute;
+	left: 350px;
+	top: 900px;
+	width: 940px;
+	height: 500px;
+
+}
+caption{
+	font-weight: bold;
+	font-size: 20px;
+}
+table{
+
+	position: absolute;
+	top: 850px;
+	left: 350px;
+	
+	width: 800px;
+	border-spacing: 40px;
+	border-collapse: collapse;
+	text-align: center;
+	border-color: #CA1111;
+}
+td{
+	border: 1px solid black;
+	border-color: #CA1111;
+	margin-left: 500px;
+}

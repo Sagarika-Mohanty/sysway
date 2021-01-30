@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="GST_calculator.css">
+</head>
+<body>
+    <img src="https://image.freepik.com/free-photo/top-view-notebook-pencil-black-coffee-cactus-watch-note-papper-stationary-pen-office-desk-background_1921-193.jpg">
+    <h1>GST CALCULATOR</h1>
+	<select id="A">
+	    <option>Category</option>
+	    <option value="5">Women Wear</option>
+	    <option value="12">Men Wear</option>
+	    <option value="18">Kid's Wear</option>
+    </select>
+
+    <select  id="B">
+    	<option>Qty</option>
+    	<option>1</option>
+    	<option>2</option>
+    	<option>3</option>
+    	<option>4</option>
+    	<option>5</option>
+    </select>
+
+    <input  placeholder="Price" id="C" >
+
+    <button onclick= "gst()" >SUBMIT</button>
+
+    <P id = "D"></P>
+    <p id = "E"></p>
+    <p id=  "F"></p>
+
+    <script type="text/javascript">
+    	function gst() {
+    		var a = parseInt(document.getElementById('A').value)
+            var b = parseInt(document.getElementById('B').value)
+    		var c = parseInt(document.getElementById('C').value)
+    		document.getElementById('D').innerHTML = "TOTAL AMOUNT =" + c*b;
+
+    		if (a==5){
+    			document.getElementById('E').innerHTML = "GST AMOUNT ="  + c*b/100 * 5;
+    			var d = c*b/100 * 5 + c*b;
+    			document.getElementById('F').innerHTML = " GRAND TOTAL AMOUNT ="  + d;
+    		}
+
+    		if (a==12){
+    			document.getElementById('E').innerHTML = "GST AMOUNT ="  + c*b/100 * 12;
+    			var d = c*b/100 * 12 + c*b;
+    			document.getElementById('F').innerHTML = " GRAND TOTAL AMOUNT ="  + d;
+    		}
+
+    		if (a==18){
+    			document.getElementById('E').innerHTML = "GST AMOUNT ="  + c*b/100 * 18;
+    			var d = c*b/100 * 18 + c*b;
+    			document.getElementById('F').innerHTML = " GRAND TOTAL AMOUNT ="  + d;
+    		}
+
+    		
+
+      	}
+
+    	
+    </script>
+</body>
+</html>

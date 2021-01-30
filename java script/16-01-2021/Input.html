@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Input.css">
+</head>
+<body>
+	<img src="https://img.freepik.com/free-vector/watercolor-background_87374-69.jpg?size=626&ext=jpg">
+<input type="text" id="data" placeholder="Input some text">
+<button id="a" onclick="foo()" > ADD </button>
+<p id="te"></p>
+
+
+<script type="text/javascript">
+
+
+var foo = function(){
+
+		 x =document.getElementById('data').value 
+		
+		document.getElementById('te').innerHTML=x;
+    document.getElementById('data').value=" ";
+    var button = document.createElement('button');
+    button.innerHTML = 'Delete';
+  
+
+
+  button.onclick = function(){
+    var list = document.getElementById("my");
+  
+  document.getElementById('te').innerHTML="";
+  button.remove();
+  
+  };
+
+  document.body.appendChild(button);
+}
+</script>
+</body>
+</html>

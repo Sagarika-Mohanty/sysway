@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<P id='e' ></P>
+	<script type="text/javascript">
+		var a = parseInt(prompt("First Value"));
+		var b = prompt("opreator");
+		var c = parseInt(prompt("Second value"));
+		if (b=="+") {
+			document.getElementById('e').innerHTML = "The value of "+a+" "+b+" "+c+" ="+(a+c);
+
+		}
+
+		 else if (b=="-") {
+			document.getElementById('e').innerHTML = "The value of "+a+" "+b+" "+c+" ="+(a-c);
+		}
+
+		 else if (b=="*") {
+			document.getElementById('e').innerHTML = "The value of "+a+" "+b+" "+c+" ="+(a*c);
+		}
+
+		else if (b=="/") {
+			document.getElementById('e').innerHTML = "The value of "+a+" "+b+" "+c+" ="+(a/c);
+		}
+
+		else if (b=="%") {
+			document.getElementById('e').innerHTML = "The value of "+a+" "+b+" "+c+" ="+(a%c);
+		}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+.a{
+	border-top: 3px solid black;
+
+}
+
+.a img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 40px;
+}
+.p{
+	position: absolute;
+	left: 100px;
+	top: 2px;
+}
+.b{
+	position: absolute;
+	left: 600px;
+	font-family: bold;
+
+
+}
+select{
+	border-style: none;
+
+}
+.c{
+	height: 120px;
+	width: 1520px;
+	background: #CA1111;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	color: white;
+}
+.d{ width: 340px;
+	height: 550px;
+	position: absolute;
+	left: 300px;
+	top: 250px;
+}
+button{
+	height: 40px;
+	width: 340px;
+	background: #CA1111;
+	color: white;
+	border-style: none;
+}
+.e{
+	width: 700px;
+	height: 550px;
+	position: absolute;
+	left: 700px;
+	top: 250px;
+}
+.f{
+	width: 1520px;
+	height: 300px;
+	background: #06106D ;
+	position: absolute;
+	top:800px;
+	color: white;
+	text-align: center;
+}
+progress{
+	width: 500px;
+	background: white;
+}

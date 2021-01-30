@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>empolyee details</title>
+</head>
+<body>
+	<h1>EMPOLYEE DETAILS</h1>
+	<P id="a"></P>
+	<script type="text/javascript">
+		var name="sagarika mohanty";
+		var gender="female";
+		var department="electrical";
+		var basicsalary=10000;
+        var PF=basicsalary*12/100;
+        var HRF=basicsalary*25/100;
+        var total=basicsalary+PF+HRF;
+
+
+		document.getElementById('a').innerHTML="Empolyee Name ="+name+"<br> Employee Gender ="+gender+"<br> Employee Department ="+department+"<br> Basic Salary ="+basicsalary +"<br> PF ="+PF +"<br> HRF ="+HRF +"<br> Total ="+total;
+	</script>
+
+</body>
+</html>

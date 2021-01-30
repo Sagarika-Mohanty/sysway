@@ -1,0 +1,114 @@
+.a{
+	border-top: 3px solid black;
+
+}
+
+.a img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 40px;
+}
+.p{
+	position: absolute;
+	left: 100px;
+	top: 2px;
+}
+.b{
+	position: absolute;
+	left: 600px;
+	font-family: bold;
+
+
+}
+select{
+	border-style: none;
+
+}
+.c{
+	height: 60px;
+	width: 1520px;
+	background: #CA1111;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	color: white;
+}
+
+.d{
+	position: absolute;
+	top: 250px;
+	left: 450px;
+
+	width: 400px;
+	height: 600px;
+
+}
+.d img{
+    width: 400px;
+    height: 350px;
+}
+button{
+	color: red;
+	border: 3px solid red;
+	border-radius: 5px;
+	background: transparent;
+
+}
+.e img{
+	width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 850px;
+	left: 450px;
+
+
+}
+.f{
+	height: 500px;
+	width: 300px;
+	
+	position: absolute;
+	left: 900px;
+	top: 250px;
+}
+.f img{
+	width: 300px;
+	height:500px;
+}
+.g{
+	color: red;
+	padding: 20px;
+}
+input{
+	width: 250px;
+	height: 30px;
+}
+.h img{
+	border-radius: 100%;
+	height: 80px;
+	width: 130px;
+}
+.h{
+	
+	position: absolute;
+	height: 800px;
+	width: 130px;
+	left: 250px;
+	top: 250px;
+	text-align: center;
+	}
+.i{
+	border-left: 1px solid black;
+	height: 400px;
+	position: absolute;
+	top: 180px;
+	left: 75px;
+}
+.j{
+	width: 70px;
+	position: absolute;
+	top: 100px;
+	left: 130px;
+	color:  black;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<link rel="stylesheet" type="text/css" href="signup_page.css">
+</head>
+<body>
+	<img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-blue-background-with-geometric-forms-image_280879.jpg">
+	<div class="a">
+    	<h1> SIGN UP</h1>
+    	<table>
+    	<tr>
+    		
+    		<td><input type="text" placeholder=" First Name" id="fname" class="b"></td>
+    	<p id="x"></p> </tr>
+    	 <tr>
+    		<td><input type="text" placeholder=" Last Name" id="lname" class="b"></td>
+        <p id="y"></p></tr>
+        <tr>
+    		<td><input type="text" placeholder=" Email Id"  id="ename" class="b"></td>
+    	 <p id="z"></p></tr>
+    	 <tr>
+    		<td><input type="text" placeholder=" Moblie Number" id="mname" class="b"></td>
+        <p id="w"></p></tr>
+    		
+         </table>
+     </div>
+         <button class="c" onClick="my()">Get Started</button>
+         <script type="text/javascript">
+
+         	function my() {
+         		
+         	var A = (document.getElementById("fname").value).length;
+		      console.log(A);
+		    if (A==0) {
+		    	document.getElementById("x").innerHTML = "**First Name Requried";
+		    }
+		    else{
+		    	document.getElementById("x").innerHTML = " ";
+		    }
+
+		    var B = (document.getElementById("lname").value).length;
+		      
+		    if (B==0) {
+		    	document.getElementById("y").innerHTML = "**Last Name Requried";
+		    }
+		    else{
+		    	document.getElementById("y").innerHTML = " ";
+		    }
+
+
+		     var C = (document.getElementById("ename").value).length;
+		      
+		    if (C==0) {
+		    	document.getElementById("z").innerHTML = "**Email Id Requried";
+		    }
+		    else{
+		    	document.getElementById("z").innerHTML = " ";
+		    }
+
+
+
+            var D = (document.getElementById("mname").value).length;
+		      
+		    if (D==0) {
+		    	document.getElementById("w").innerHTML = "**Moblie Number Requried";
+		    }
+		    else{
+		    	document.getElementById("w").innerHTML = " ";
+		    }
+		    if (A>0 && B>0 && C>0 && D>0) 
+		    {
+		      setTimeout(function(){
+		      	alert("Submit Sucessfully")
+		      } ,300)
+
+		       
+		    }
+
+
+
+         }
+         </script>
+
+</body>
+</html>

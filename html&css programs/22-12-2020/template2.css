@@ -1,0 +1,197 @@
+.a{
+	border-top: 3px solid black;
+
+}
+
+.a img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 40px;
+}
+.p1{
+	position: absolute;
+	left: 100px;
+	top: 2px;
+}
+.b{
+	position: absolute;
+	left: 600px;
+	font-family: bold;
+
+
+}
+select{
+	border-style: none;
+
+}
+.c{
+	height: 110px;
+	width: 1520px;
+	background: #CA1111;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	color: white;
+}
+.d{	
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	
+	height: 100px;
+	width: 1326px;
+	text-align: center;
+	margin-bottom: 100px;
+	
+}
+.car{
+	position:absolute;
+	top:-3px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+}
+
+
+.cal{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	height: 250px;
+	width: 210px;
+
+}
+.app{
+	position: absolute;
+	top: 430px;
+	left: 150px;
+	height: 250px;
+	width: 210px;
+}
+.im1{
+	position: relative;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.im2{
+	position: relative;
+	bottom: 350px;
+	left: 670px;
+	height: 350px;
+	width: 200px;
+}
+.im3{
+	position: relative;
+	bottom:701px;
+	left: 940px;
+	height: 350px;
+	width: 200px;
+}
+.im4{
+	position: relative;
+	bottom:701px;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.imgz{
+	height: 250px;
+	width: 250px;
+}
+.im1p{
+	position: absolute;
+	top: 234px;
+	left: 0px;
+	background: blue;
+	width: 60px;
+	height: 70px;
+	color: white;
+}
+.im1s{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+.im1s2{
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+
+}
+.im1p1{
+	position: absolute;
+	left: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+.p{
+	position: absolute;
+	top: 70px;
+	left: 150px;
+
+}
+.hr1{
+   position: absolute;
+   top: 120px;
+   left: 150px;
+   width: 200px;
+}
+ .fo{
+position: absolute;
+top: 850px;
+left: 300px;
+width: 900px;
+height: 200px;
+text-align: left;
+}
+.fo td{
+
+padding-left: 50px;
+
+}
+.fop{
+font-size: 10px;
+padding: 1px;
+}
+.lpo{
+height: 100px;
+
+
+}
+.forb{ 
+position: relative;
+border: 1px solid black;
+top: 280px;
+}
+.pop{
+position: relative;
+border: 1px solid black;
+left: -5px;
+height: 21px;
+border-style: none;
+
+width: 80px;
+background: #9E1717;
+color: white;
+}
+
+.hr2{
+	position: absolute;
+	width: 1500px;
+	top: 800px;
+}
+.hr3{
+	position: absolute;
+	width: 130px;
+	top: 50px;
+
+	
+}
+.hr4{
+	position: absolute;
+	width: 250px;
+	top: 60px;
+}

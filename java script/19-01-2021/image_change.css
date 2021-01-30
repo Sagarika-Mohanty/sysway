@@ -1,0 +1,37 @@
+button{
+	border-radius: 30%;
+	height: 15px;
+	width: 10px;
+	position: relative;
+	top: 650px;
+	left: 650px;
+	margin-left: 10px;
+	background: transparent;
+}
+img{
+	position: absolute;
+	left: 180px;
+	top: 50px;
+}
+body{
+	background: #DEBCFC ;
+
+}
+#button1{
+   position: absolute;
+   right: 180px;
+   top: 180px;
+   font-size: 100px;
+   color: white;
+   opacity: 0.5;
+   cursor: pointer;
+}	
+#button2{
+   position: absolute;
+   left: 200px;
+   top: 180px;
+   font-size: 100px;
+   color: white;
+   opacity: 0.5;
+   cursor: pointer;
+}

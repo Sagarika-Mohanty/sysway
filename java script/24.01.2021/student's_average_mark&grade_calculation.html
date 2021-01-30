@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="student's_average_mark&grade_calculation.css">
+</head>
+<body>
+	<img src="https://www.kindpng.com/picc/m/136-1367928_download-education-icon-education-png-transparent-png.png">
+    <h1>STUDENT GRADE CALCULATOR</h1>
+	<input placeholder="ENTER PHYSICS MARK" id="A">
+	<input placeholder="ENTER CHEMISTRY MARK" id="B">
+	<input placeholder="ENTER MATHEMATICS MARK" id="C">
+	<input placeholder="ENTER ENGISH MARK" id="D">
+	<input placeholder="ENTER ODIA MARK" id="E">
+	<input placeholder="ENTER BOILOGY MARK" id="F">
+
+    <p id="G"></p>
+    <p id="H"></p>
+    <p id="I"></p>
+
+	<button onClick="studentmark()">SUBMIT</button>
+
+    <script type="text/javascript">
+    function studentmark() {
+    		var a = parseInt(document.getElementById('A').value);
+            var b = parseInt(document.getElementById('B').value);
+    		var c = parseInt(document.getElementById('C').value);
+    		var d = parseInt(document.getElementById('D').value);
+            var e = parseInt(document.getElementById('E').value);
+    		var f = parseInt(document.getElementById('F').value);
+            var g = (a+b+c+d+e+f);
+    		document.getElementById('G').innerHTML = "Total Mark = " + g;
+    		var h = ((a+b+c+d+e+f)/6).toFixed(3);
+    		document.getElementById('H').innerHTML = "Average = " + h;
+            
+            if (h>=90 && h<=100 ){
+            	document.getElementById('I').innerHTML = "Grade = A " ;
+            }
+
+            if (h>=80 && h<=90 ){
+            	document.getElementById('I').innerHTML = "Grade = B " ;
+            }
+
+            if (h>=70 && h<=80 ){
+            	document.getElementById('I').innerHTML = "Grade = C " ;
+            }
+
+            if (h>=60 && h<=70 ){
+            	document.getElementById('I').innerHTML = "Grade = D " ;
+            }
+
+            if (h>=30 && h<=60 ){
+            	document.getElementById('I').innerHTML = "Grade = E " ;
+            }
+
+            if (h>=0 && h<=30 ){
+            	document.getElementById('I').innerHTML = "Grade = F " ;
+            }
+
+
+    	}	
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.booking{
+  background: #F504DF;
+  padding: 20px;
+  width: 60%;
+  height: 500px;
+
+}
+h1{
+	float: right;
+
+}
+.b{
+	border: 2px solid black;
+	width: 200px;
+	height: 15px;
+	margin-top: 20px;
+	float: left;
+	background: white;
+	
+}
+.a{
+	float: left;
+    clear: both;
+}
+.c{
+	float: left;
+}

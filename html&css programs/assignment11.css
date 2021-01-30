@@ -1,0 +1,29 @@
+div{
+	background-image: url(https://www.zingerbug.com/Backgrounds/background_images/light_purple_construction_paper_seamless.jpg);
+	margin: 100px;
+	height: 600px;
+	padding: 20px;
+
+}
+
+h1{
+	text-align: right;
+	font-style: italic;
+}
+h2{
+	float: right;
+	color: blue;
+	font-style: italic;
+}
+h3{
+	font-size: 30px;
+
+}
+
+ul{
+   list-style-type: none;
+
+}
+
+   
+

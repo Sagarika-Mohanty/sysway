@@ -1,0 +1,29 @@
+img{
+	;position: absolute;
+	z-index: -2;
+	height: 740px;
+	width: 1520px;
+}
+#A{
+	height: 500PX;
+	width: 500PX;
+	position: absolute;
+	left: 550px;
+	top: 100px;
+}
+button{
+	position: relative;
+	left: 600px;
+	top: 650px;
+	width: 200px;
+	height: 50px;
+
+}
+.c{
+	background: #A1CE10 ;
+}
+.d{
+	background: #E92B06 ;
+
+ 
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WORD LENGTH</title>
+	<link rel="stylesheet" type="text/css" href="Wordlength.css">
+</head>
+<body>
+	<img src="https://image.freepik.com/free-photo/abstract-connected-dots-lines-blue-background_34629-424.jpg">
+	<h1>TYPE A TEXT</h1>
+	<input id="a" type="text" placeholder="Enter Some Text" >
+	<div id="b"></div>
+	<div id="c" ></div>
+	<button onclick="myfunction()">Click Here To Check Word Length</button>
+	<script type="text/javascript">
+		function myfunction() {
+			var A = document.getElementById("a").value;
+		    var B = A.length;
+		    document.getElementById("b").innerHTML=B;
+		    document.getElementById("c").innerHTML= "The length " +" " + A +" " +"is "+ B;
+
+
+       }
+
+	
+	</script>
+
+</body>
+</html>

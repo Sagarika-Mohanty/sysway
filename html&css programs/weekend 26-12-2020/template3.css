@@ -1,0 +1,101 @@
+
+
+h3{
+	width: 300px;
+	height: 50px;
+	padding-left:20px;
+	padding-top: 20px;
+	background: #696767;
+	color: #D7D2D2;
+
+}
+.a ul{
+
+	width: 280px;
+	height: 750px;
+	background: #2F2D2D;
+}
+li{
+	list-style-type: none;
+	padding-top: 20px;
+	color: white;
+
+}
+.b{
+	height: 300px;
+	width: 300px;
+	background: black;
+	color: white;
+	position: absolute;
+	top: 400px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+
+
+}
+	
+.b img{
+	height: 200px;
+	width: 250px;
+}
+.c{
+	
+	width: 1190px;
+	height: 70px;
+	position: absolute;
+	left: 330px;
+	top: 18px;
+	background: #7C82C0 ;
+	color: white;
+
+}
+.c h1{
+	position: absolute;
+	top: 5px;
+	right: 50px;
+}
+.img2 img{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	height: 500px;
+	width: 1050px;
+}
+.d{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 200px;
+	left: 450px;
+	background: white;
+	padding-left: 20px;
+	padding-top: 40px;
+}
+.d p{
+	position: absolute;
+	top: 150px;
+}
+span{
+	color: #7C82C0 ;
+}
+button{
+	margin-top: 120px;
+	height: 30px;
+	border: 2px solid #7C82C0 ;
+	color: #7C82C0 ;
+	background: transparent;
+}
+table{
+	position: absolute;
+	left: 450px;
+	top: 650px;
+	border-spacing: 10px;
+}
+td{
+
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	background: #ADA7A7;	
+	
+}

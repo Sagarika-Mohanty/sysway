@@ -1,0 +1,89 @@
+.b{
+	height: 60px;
+	width: 1500px;
+	background: white;
+	
+}
+.h4{
+	position: absolute;
+	left: 80px;
+	font-family: Comic Sans MS;
+	margin: 0px;
+	font-size: 30px;
+	top: 20px;
+
+}
+p{
+	position: absolute;
+	left: 700px;
+	color: black;
+
+}
+a{
+	text-decoration-line: none;
+}
+.c{
+	position: absolute;
+	left: 80px;
+	background: #F6F6F7  ;
+	width: 1200px;
+	height: 60px;
+	padding: 20px;
+}
+hr{
+	position: absolute;
+	width: 150px;
+}
+li{
+	list-style-type: none;
+	position: relative;
+	right: 40px;
+}
+.d{
+	position: absolute;
+	top: 200px;
+	padding: 50px;
+	left: 30px;
+}
+img{
+	width: 200px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.ee{
+	position: absolute;
+	width: 500px;
+	height: 800px;
+}
+.e1{
+		position: absolute;
+			top: 200px;
+			left:300px;
+}
+.e2{
+		position: absolute;
+			top: 200px;
+			left:700px;
+}
+.e3{
+		position: absolute;
+			top: 200px;
+			left:1100px;
+}
+.e4{
+		position: absolute;
+			top: 600px;
+			left:300px;
+}
+.e5{
+		position: absolute;
+			top: 600px;
+			left:700px;
+}
+
+.e6{
+		position: absolute;
+			top: 600px;
+			left:1100px;
+}
+

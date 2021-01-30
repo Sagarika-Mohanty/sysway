@@ -1,0 +1,19 @@
+div{
+	background: #F854E9 ;
+	width: 60%;
+	height: 500px;
+    padding: 20px;
+}
+h1{
+	text-align: center;
+	color: red;
+}
+p{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+  float: right;
+}

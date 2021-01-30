@@ -1,0 +1,31 @@
+body{
+	background: #912365;
+    padding:50px;
+}
+
+h1{
+	color: solid black;
+	text-align: center;
+	border: 6px solid black;
+	padding: 30px;
+}
+
+a{
+	color:solid black;
+	font-size:25px;
+
+}
+div{
+	border: 6px solid black;
+    background:slateblue;
+	padding right: 0.5px;
+	padding left:0.5px;
+	padding-top: 0.5px;
+	padding-bottom:0.5px;
+}
+div img{
+	width: 200px;
+	height:200px;
+	margin: 30px;
+
+}

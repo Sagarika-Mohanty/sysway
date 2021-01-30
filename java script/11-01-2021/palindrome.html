@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="A"  ></p>
+	<script type="text/javascript">
+		var a = prompt("Enter Number")
+		var b = parseInt(a);
+        var d = 0;
+        var x = b;
+
+	    for (i=0; i<a.length; i++)
+	    {
+	    	c = b%10;
+	    	b = Math.floor(b/10);
+	    	d = d*10+c;
+	    	
+	    }
+	    if (x==d) {
+	    	document.getElementById("A").innerHTML = ("The number is a palindrome")
+	    }
+	    else{
+	    	document.getElementById("A").innerHTML = ("The number is not a palindrome")
+	    }
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+body{
+	background: #8D91CB;
+}
+table{
+	border: 2px solid black;
+	width: 1400px;
+	height: 300px;
+	border-collapse: collapse;
+	position: absolute;
+	top: 150px;
+	left:70px;
+
+}
+th{
+	border: 2px solid black;
+	border-collapse: collapse;
+	
+}
+td{
+	border: 2px solid black;
+	text-align: center;
+	
+}
+tr{
+	border: 2px solid black;
+	
+}
+.nav{
+	background: #636369 ;
+	border-radius:10px;
+	width: 1500px;
+	height: 60px;
+	
+}
+h1{
+	text-align: center;
+}
+button{
+	position: absolute;
+	left: 1250px;
+	top: 18px;
+	width: 250px;
+	height: 40px;
+	background: #61C9E1  ;
+	color: white; 
+	border-style: none;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,45 @@
+body{
+	background: green;
+	width: 200px;
+	height: 500px;
+}
+.a1{
+	background: white;
+	position: absolute;
+	left:400px;
+	width: 450px;
+	height: 450px;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding-left: 50px;
+}
+.b{
+	border-radius: 20px;
+	background-color: blue;
+	width: 60px;
+	color: white;
+
+}
+.f{
+	background-color: #B9C2C5;
+	width: 300px;
+}
+.c{
+	border-radius: 20px;
+	background-color: blue;
+	width: 120px;
+	color: white;
+}
+.d{
+	border-radius: 20px;
+	background-color: red;
+	width: 120px;
+	color: white;
+}
+.e{
+	border-radius: 20px;
+	background-color: green;
+	width: 120px;
+	color: white;
+}
+

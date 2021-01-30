@@ -1,0 +1,60 @@
+.a{
+	background: url(https://www.teahub.io/photos/full/2-26193_backgrounds-tree-on-new-hd-nature-green-trees.jpg);
+	height: 730px;
+	width: 1500px; 		
+	
+	}
+.b{
+
+	height: 60px;
+	width: 1500px;
+	background: white;
+	border: 1px solid #808B96;
+}
+select{
+	border:0px;
+   outline:0px;
+   background: transparent;
+   font-weight: bold;
+   opacity: .6;
+
+}
+
+h2{
+	position: absolute;
+    left: 80px;
+    top: 10px;
+	opacity: .6;
+}
+p{
+	position: absolute;
+	left: 900px;
+	top: 20px;
+
+
+}
+a{
+	text-decoration-line: none;
+	color: black;
+	font-weight: bold;
+	opacity: .6;
+}
+.c{
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	color: white;
+	width: 700px;
+	height: 200px;
+	text-align: center;
+	font-size: 25px;
+
+}
+button{
+	font-weight: bold; 	
+	height: 30px;
+	width: 130px;
+	margin-left: 5px;
+	background: transparent;
+	border-color: white;
+	}  

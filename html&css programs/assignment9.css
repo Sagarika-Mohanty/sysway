@@ -1,0 +1,33 @@
+.i{
+	width: 300px;
+	height: 300px;
+}
+.a{
+	float: left;
+	margin: 7px;
+	text-align: center;
+}
+.b{
+	float: left;
+	margin: 7px;
+	text-align: center;
+}
+.c{
+	float: left;
+	margin: 7px;
+	text-align: center;
+}
+.d{
+	float: left;
+	margin: 7px;
+	text-align: center;
+}
+.place{
+	color:#7206B0;
+
+}
+.day{
+	color:green;
+}
+.price{
+	color:red;

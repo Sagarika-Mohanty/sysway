@@ -1,0 +1,38 @@
+body{
+	background: url(https://3.bp.blogspot.com/-9KmqEjZOOOU/TaGaPv8k5JI/AAAAAAAAHDw/RE6kC0h3ltM/s1600/GraphicTip1.jpg);
+}
+.a{
+	height: 500px;
+	width: 50%;
+	margin:120px;
+	background: white;
+	margin-left: 380px;
+	padding-left: 90px;
+	padding-top: 40px;
+	border-style: none;
+}
+.b{
+	width: 300px;
+	height: 30px;
+	background: #CEDCCB ;
+}
+
+
+table{
+	width: 700px;
+}
+.c{
+  width:650px;
+  height: 30px;
+  background: #CEDCCB ;
+}
+.d{
+  width: 650px;
+  height: 90px;
+  background: #CEDCCB ;
+}
+.e{
+	position: absolute;
+	right: 700px;
+	background: #379F1A;
+}

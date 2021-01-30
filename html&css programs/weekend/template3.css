@@ -1,0 +1,37 @@
+body{
+	background: url(https://cdn.wallpapersafari.com/47/58/FOo7RD.jpg);
+	height: 500px;
+}
+.a{
+   color: white ;
+   position: absolute;
+   left: 200px;
+   top: 100px;
+  width: 1200px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+
+}
+select{
+	border-style: none;
+	background: transparent;
+	color: white;
+}
+.b{
+	position: absolute;
+	left: 30px;
+	font-size: 30px;
+}
+.c{
+	text-align: center;
+	padding: 300px;
+	color: white;
+}
+.d{
+    margin-top: 30px;
+	width: 300px;
+	height: 20px;
+	
+}

@@ -1,0 +1,49 @@
+.a{
+	background:#8C9393;
+	height: 650px;
+
+}
+.b{
+	background: #2EDCDB;
+	height: 70px;
+	width: 1520px;
+	color: white;
+
+
+}
+.p{
+	position: absolute;
+	left: 250px;
+	top: 20px;
+}
+.c{
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	color: white;
+}
+h5{
+	font-size: 15px;
+}
+.d{
+	font-size: 30px;
+}
+.btn1{
+	background: #2EDCDB;
+	height: 40px;
+	width: 200px;
+	color: white;
+	border-style: none;
+}
+.btn2{
+	background: transparent;
+	height: 40px;
+	width: 200px;
+	color: white;
+	border: 1px solid white;
+}
+select{
+	background: transparent;
+	border-style: none;
+	color: white;
+}

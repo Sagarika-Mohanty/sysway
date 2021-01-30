@@ -1,0 +1,56 @@
+.a{
+	background: url(1.jpeg);
+	height: 600px;
+	width: 1500px;
+}
+.b{
+	height: 60px;
+	width: 1500px;
+	background: white;
+	
+}
+.h4{
+	position: absolute;
+	left: 80px;
+	font-family: Comic Sans MS;
+	margin: 0px;
+	font-size: 30px;
+	top: 20px;
+
+}
+p{
+	position: absolute;
+	left: 700px;
+	color: black;
+
+}
+a{
+	text-decoration-line: none;
+}
+h4{
+	position: absolute;
+    color: blue;
+	left: 150px; 
+	top: 200px;
+}
+h1{
+	position: absolute;
+	left: 150px; 
+	top: 250px;
+
+
+}
+.c{
+	position: absolute;
+	left: 150px; 
+	top: 350px;
+}
+button{
+	position: absolute;
+	left: 150px;
+	bottom: 300px;
+	width: 200PX;
+	height: 40PX;
+	background: black;
+	color: white;
+}

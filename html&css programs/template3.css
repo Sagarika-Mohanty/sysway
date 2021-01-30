@@ -1,0 +1,60 @@
+body
+{
+	background-image: url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	color: white; 
+	
+}
+.a{
+
+	border: 2px solid black;
+	width: 900px;
+	height: 600px;
+	margin: 200px;
+	padding: 50px;
+	background: #AFB6B8 ;	
+	border-radius: 30px;
+	}
+.aa{
+	float: right;
+	border: 2px solid black;
+	width: 350px;
+	height: 20px;
+	text-align: top;
+	border-radius: 20px;
+	padding-bottom: 20px; 
+	padding-left: 30px;	
+	font-size: 12px;
+	margin: 20px;
+}
+
+.b{
+	clear: both;
+	border: 2px solid black;
+	width: 500px;
+	height: 100px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin: 20px;
+	
+	}
+.b{
+	height: 100px;
+	width: 300px;
+	border-radius: 60px;
+	font-style: cursive;
+
+}
+.bc{
+	float: right;
+}
+.bd{
+	height: 250px;
+	width: 300px;
+	margin-right: 20px;
+}
+h5{
+	font-style: cursive;
+}

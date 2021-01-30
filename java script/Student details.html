@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student details</title>
+</head>
+<body>
+	<h1>STUDENT DETAILS</h1>
+	<p id="a"></p>
+	<p id="b"></p>
+
+	<script type="text/javascript">
+		var  name="Sagarika Mohanty";
+		var age=22;
+		var gender="Female";
+		var m1=50;
+		var m2=50;
+		var m3=50;
+		var total=m1+m2+m3;
+		var average=total/3;
+		document.getElementById('a').innerHTML="Student Name  ="+name+"<br>Student Age  ="+age+"<br>Student Gender  ="+gender+"<br>Mark1  ="+m1+"<br>Mark2  ="+m2+"<br>Mark3  ="+m3+"<br>Total  ="+total+"<br>Average  ="+average;
+		debugger;
+		if (average>30) {
+		
+			document.getElementById('b').innerHTML="student passed"
+			if (average>40) {
+			document.getElementById('b').innerHTML="student got second division"	
+
+			}
+		} 
+		
+		else {document.getElementById('b').innerHTML="student failed"
+
+		}
+	</script>
+
+</body>
+</html>
